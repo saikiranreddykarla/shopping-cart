@@ -18,3 +18,64 @@ Live Demo 👉 [Shopping Cart](https://saikiranreddykarla.github.io/shopping-car
 ---
 
 ## 📂 Project Structure
+shopping-cart/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable components (Navbar, ProductCard, etc.)
+│ ├── pages/ # Home and Cart pages
+│ ├── App.jsx # Routes
+│ ├── main.jsx # Entry point
+│ └── index.css # Tailwind styles
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone the repo:
+```bash
+git clone https://github.com/saikiranreddykarla/shopping-cart.git
+cd shopping-cart
+
+
+Install dependencies:
+
+npm install
+
+
+Run locally:
+
+npm run dev
+
+
+Build for production:
+
+npm run build
+
+
+Deploy to GitHub Pages:
+
+npm run deploy
+
+⚡ Tech Stack
+
+React 18 + Vite
+
+TailwindCSS
+
+React Router DOM
+
+Fake Store API
+
+📸 Screenshots
+🏠 Home Page
+
+🛒 Cart Page
+
+👨‍💻 Author
+
+Sai Kiran Reddy Karla
+🌐 GitHub
