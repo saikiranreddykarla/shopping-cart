@@ -18,18 +18,22 @@ Live Demo 👉 [Shopping Cart](https://saikiranreddykarla.github.io/shopping-car
 ---
 
 ## 📂 Project Structure
-shopping-cart/
-├── public/ # Static assets
-├── src/
-│ ├── components/ # Reusable components (Navbar, ProductCard, etc.)
-│ ├── pages/ # Home and Cart pages
-│ ├── App.jsx # Routes
-│ ├── main.jsx # Entry point
-│ └── index.css # Tailwind styles
-├── package.json
-├── vite.config.js
-└── README.md
 
+shopping-cart/
+├── .github/
+│ └── workflows/
+│ └── deploy.yml # GitHub Actions for deployment
+├── public/ # Static assets
+├── src/ # Main React source code
+│ ├── components/ # Reusable UI components (Navbar, ProductCard, etc.)
+│ ├── pages/ # Pages (Home, Cart)
+│ ├── App.jsx # Main app component
+│ ├── main.jsx # Entry point
+├── package.json # Dependencies and scripts
+├── vite.config.js # Vite configuration (set base for GitHub Pages)
+├── tailwind.config.js # TailwindCSS config
+├── postcss.config.js # PostCSS config
+└── README.md # Project documentation
 
 ---
 
